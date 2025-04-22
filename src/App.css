@@ -1,0 +1,33 @@
+/* Establecer un contenedor con márgenes laterales */
+.container {
+  max-width: 1200px; /* Ajusta este valor para el ancho máximo que prefieras */
+  margin: 0 auto; /* Márgenes automáticos para centrar */
+  padding: 0 20px; /* Espacio interno en los lados */
+  box-sizing: border-box; /* Asegura que el padding se incluya dentro del ancho */
+}
+
+/* Ajustar el body para evitar que ocupe todo el ancho */
+body {
+  background-color: #000; /* Fondo negro */
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box; /* Para que el padding no altere el ancho */
+}
+
+/* Asegura que todas las secciones tengan los márgenes y no se expandan al 100% */
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Espacio interno en los lados */
+  box-sizing: border-box;
+}
+
+/* Estilo para el header si quieres limitar también su ancho */
+.App-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}

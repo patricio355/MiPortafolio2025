@@ -1,0 +1,41 @@
+.sobre-mi {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .sobre-mi-cuadro {
+    background-color: #141313;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sobre-mi h2 {
+    margin-bottom: 10px;
+  }
+  
+  .sobre-mi p {
+    margin: 10px 0;
+  }
+  
+  .sobre-mi h3 {
+    margin-top: 20px;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #000;
+  }
+  
+  .social-links a:hover {
+    color: #0073b1; /* Cambia este color si quieres un efecto hover diferente */
+  }
+  

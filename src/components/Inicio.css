@@ -1,0 +1,95 @@
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+  }
+
+  @media (max-width: 768px) {
+    .inicio {
+        padding-top: 700px; /* Reduce el espacio para pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .inicio {
+        padding-top: 700px; /* Reduce aún más el espacio para dispositivos móviles */
+    }
+
+    .nombre {
+        font-size: 2.5em; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+    }
+}
+  
+  .content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .nombre {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .foto-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .foto {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid white;
+  }
+  
+  .descripcion {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+
+  
+  .foto-perfil {
+    border-radius: 50%;
+    width: 150px; /* Ajusta según lo necesites */
+    height: 150px; /* Ajusta según lo necesites */
+  }
+  
+  .proyectos-container {
+    padding: 20px;
+  }
+  
+  .proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas */
+  }
+  
+  /* Para que cada tarjeta tenga un tamaño y un margen adecuado */
+  .card {
+    flex: 0 1 calc(30% - 40px); /* Tres tarjetas por fila con espacio */
+    margin: 10px; /* Margen alrededor de cada tarjeta */
+  }
+  
+  /* Ajustar para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 1 calc(45% - 40px); /* Dos tarjetas por fila */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      flex: 0 1 100%; /* Una tarjeta por fila */
+    }
+  }
+  
