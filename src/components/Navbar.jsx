@@ -10,7 +10,7 @@ const Navbar = () => {
         <li><a href="#contacto">Contacto</a></li>
       </ul>
       <div className="nav-right">
-        <a href="https://drive.google.com/file/d/1OjwByh91mIU4DD-gwRJsNv14Vh-l6ai0/view?usp=drive_link" className="btn-cv" download>Descargar CV</a>
+        <a href="https://drive.google.com/file/d/1OjwByh91mIU4DD-gwRJsNv14Vh-l6ai0/view?usp=drive_link" className="btn-cv" download>C.V.</a>
       </div>
     </nav>
   );

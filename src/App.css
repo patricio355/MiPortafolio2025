@@ -31,3 +31,11 @@ section {
   padding: 0 20px;
   box-sizing: border-box;
 }
+
+.proyectos-titulo{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 40px;
+}

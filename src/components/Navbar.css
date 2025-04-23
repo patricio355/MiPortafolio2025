@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
-    background-color: #29272777;
+    padding: 10px 40px;
+    background-color: #3b2108ab;
     color: white;
     position: fixed;
     width: 100%;
@@ -28,6 +28,9 @@
     font-size: 1.2em;
     transition: color 0.3s ease;
     margin-right: 25px;
+    font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  
   }
   
   .nav-links li a:hover {
