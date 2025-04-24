@@ -42,3 +42,30 @@
   font-weight:lighter;
   margin: 1;
   }
+
+  @media (max-width: 640px) {
+     .proyectos-container {
+    display: flex;
+    flex-direction: column;     /* una card bajo otra */
+    align-items: center;        /* las centra horizontalmente */
+    gap: 20px;                  /* espacio entre tarjetas */
+  }
+
+  .proyectos-container .card {
+    background-color: #282c34;
+    color: white;
+    border-radius: 8px;
+    /* ANCHO UNIFORME: las hace todas del 90% del viewport */
+    width: 90vw;
+    max-width: 400px;           /* opcional: para que no sean demasiado anchas en pantallas algo más grandes */
+    /* ALTURA UNIFORME: fija una altura mínima o exacta */
+    min-height: 300px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* reparte título, texto y botón */
+  }
+  }
