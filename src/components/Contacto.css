@@ -1,0 +1,94 @@
+.contacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding-bottom: 50px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #ece4e4;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+   
+    margin-bottom: 15px;
+  }
+
+  .contacto-titulo h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+
+    font-weight: bold;
+  }
+  
+  .contacto-cuerpo {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(40, 40, 41);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacto-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-family: 'Roboto Slab', serif;
+
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cfc5c5;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #0a0385;
+    outline: none;
+  }
+  
+  .enviar-btn {
+    padding: 12px 20px;
+    background-color: #062a9e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Roboto Slab', serif;
+    width: 20%;
+    font-weight: bold;
+    display: block;
+  margin: 20px auto 0; 
+  }
+  
+  .enviar-btn:hover {
+    background-color: #130ea1;
+  }
+  

@@ -4,6 +4,7 @@ import Inicio from './components/Inicio';
 import './App.css';
 import SobreMi from './components/SobreMi';
 import Proyecto from './components/Proyecto'; 
+import Contacto from './components/Contacto';
 function App() {
   const proyectos = [
     {
@@ -86,6 +87,10 @@ function App() {
       <section id='sobre-mi'>
         <SobreMi />
         </section>
+
+      <section id='contacto'>
+        <Contacto/>
+      </section>
       </div>
     </div>
   );

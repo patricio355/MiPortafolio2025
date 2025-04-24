@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px 40px;
-    background-color: #3b2108ab;
+    background-color: #1a1d24ab;
     color: white;
     position: fixed;
     width: 100%;
@@ -34,11 +34,11 @@
   }
   
   .nav-links li a:hover {
-    color: #ff6600;
+    color: #115bfa;
   }
   
   .nav-right .btn-cv {
-    background-color: #ff6600;
+    background-color: #062a9e;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -48,6 +48,6 @@
   }
   
   .nav-right .btn-cv:hover {
-    background-color: #cc5200;
+    background-color: #061172;
   }
   

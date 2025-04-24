@@ -1,23 +1,53 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
 .sobre-mi {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    
     padding: 20px;
    
     padding-bottom: 400px;
   }
+
+  .tecnol-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .tecnol-icons svg {
+    font-size: 100px; /* Cambia el tamaño de los iconos aquí */
+    transition: transform 0.3s ease;
+  }
   
+  .tecnol-icons svg:hover {
+    transform: scale(1.2); /* Escala el icono al 120% de su tamaño */
+  }
+  .tecnol h1{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+  font-weight: bold;
+
+  }
   .sobre-mi-cuadro {
     background-color: #141313;
-    border: 2px solid #975504;
+    border: 2px solid #043f97;
     border-radius: 10px;
-    width: 1000px;
+    /* En lugar de width fija: */
+    width: 100%;          /* ocupa todo el contenedor padre */
+    max-width: 1000px;    /* pero no crece más allá de 1000px */
     padding: 20px;
-    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;       /* lo centra horizontalmente */
   }
   
    h2 {
-    padding-top: 300px;
+    padding-top: 130px;
     margin-bottom: 10px;
     font-family: 'Roboto Slab', serif;
   font-weight: bold;
@@ -29,12 +59,13 @@
   .sobre-mi p {
     margin: 10px 0;
     font-family: 'Roboto Slab', serif;
-  
+    font-weight: 300;
   margin: 0;
+  font-size: 17px;
   }
   
   .sobre-mi h3 {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .social-links {
