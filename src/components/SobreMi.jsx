@@ -3,9 +3,12 @@ import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import './SobreMi.css';
 const SobreMi = () => {
   return (
+    <div>
+      <h2>Sobre mi</h2>
     <section className="sobre-mi">
+       
       <div className="sobre-mi-cuadro">
-        <h2>Sobre mí</h2>
+       
         <p>
           Soy estudiante avanzado de la carrera de Analista Programador Universitario en la Facultad de Ingeniería, 
           con solo 5 materias pendientes para completar mi formación. Me apasiona el desarrollo de software y he adquirido 
@@ -40,6 +43,7 @@ const SobreMi = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

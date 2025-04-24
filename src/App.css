@@ -38,4 +38,9 @@ section {
   font-weight: bold;
   margin: 0;
   font-size: 40px;
+  padding-top: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
 }

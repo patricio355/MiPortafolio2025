@@ -61,12 +61,16 @@ function App() {
     <div className="App">
       <div className="container">
         <Navbar />
-        
+        <section id="perfil">
         <Inicio />
+        </section>
+        <section id="proyectos">
         <h2 className="proyectos-titulo">Mis Proyectos</h2>
       <div className="proyectos-container">
         <div className="proyectos">
+       
           {proyectos.map((proyecto, index) => (
+            
             
             <Proyecto
               key={index}
@@ -75,10 +79,13 @@ function App() {
               link={proyecto.link}
             />
           ))}
+          
         </div>
       </div>
+      </section>
+      <section id='sobre-mi'>
         <SobreMi />
-       
+        </section>
       </div>
     </div>
   );
