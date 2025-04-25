@@ -25,7 +25,7 @@ function App() {
     {
         titulo: 'Reserva de mesas',
         descripcion: 'Proyecto final de una materia , donde vimos como conectar frontend (Angular), backend (Nodejs)  con BD Mongo, se sentra en la administracion de reservas en un restaurante',
-        link: 'https://enlace-a-tu-proyecto-3.com',
+        link: 'https://github.com/patricio355/Reserva-de-mesas.git',
       },
       {
         titulo: 'MercadoLiebreDH',
@@ -47,13 +47,13 @@ function App() {
       {
         titulo: 'Ticketera',
         descripcion: 'App para administracion de compra de tickets para estadios, mi primera experiencia usando Angular',
-        link: 'https://github.com/patricio355/React-Thechill.git',
+        link: 'https://github.com/patricio355/Ticketera.git',
       },
 
       {
         titulo: 'Candidatos',
-        descripcion: 'App para administracion de postulantes a presidente, esta app me sirvio para entender lo que es un ABM y así poder empezar con apps de adminisitración',
-        link: 'https://github.com/patricio355/React-Thechill.git',
+        descripcion: 'App para administracion de postulantes a presidente, esta app me sirvio para entender lo que es un ABM y así poder empezar con apps de adminisitración trabajando en grupo',
+        link: 'https://github.com/CarlosCommit/TpEvaluativo',
       },
 
 

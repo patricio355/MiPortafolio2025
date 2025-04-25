@@ -1,14 +1,30 @@
 import React, { useState } from 'react';
 import './Contacto.css';
 import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
 const Contacto = () => {
   const [nombre, setNombre] = useState('');
   const [mensaje, setMensaje] = useState('');
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Aquí puedes manejar el envío del formulario (como enviar los datos a un servidor)
-    console.log("Formulario enviado", { nombre, mensaje });
-  };
+  
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  emailjs.sendForm(
+    'service_peng2ss',     // ← reemplazá
+    'template_46fpq8s',    // ← reemplazá
+    e.target,
+    'gjDp5R8f0U7PfN17q'      // ← reemplazá
+  )
+  .then((result) => {
+      console.log('Mensaje enviado', result.text);
+      alert('Mensaje enviado con éxito!');
+      setNombre('');
+      setMensaje('');
+  }, (error) => {
+      console.log('Error al enviar', error.text);
+      alert('Hubo un error al enviar el mensaje.');
+  });
+};
 
   return (
     <div className='contacto-container'>
@@ -37,6 +53,7 @@ const Contacto = () => {
             <input
               type='text'
               id='nombre'
+              name='nombre'
               value={nombre}
               onChange={(e) => setNombre(e.target.value)}
               
@@ -47,6 +64,7 @@ const Contacto = () => {
             <label htmlFor='mensaje'>Mensaje:</label>
             <textarea
               id='mensaje'
+               name='mensaje'
               value={mensaje}
               onChange={(e) => setMensaje(e.target.value)}
              

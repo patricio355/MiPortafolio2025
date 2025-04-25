@@ -52,7 +52,7 @@ const SobreMi = () => {
             <TechCard IconComponent={FaCss3Alt} color="#1572B6" />
 
             {/* Frameworks */}
-            <TechCard IconComponent={FaReact} color="#61DAFB" />
+           
             <TechCard IconComponent={FaAngular} color="#DD0031" />
             <TechCard IconComponent={SiExpress} color="#28A745" />
 
