@@ -2,13 +2,45 @@
     background-color: #282c34;
     color: white;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Esto manda el botón al fondo */
+  /* Para que todas las cards midan lo mismo */
+  }
+
+  .card img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
   }
   
+  .card a{
+    margin-top: auto; /* Se empuja hacia abajo */
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #274586;
+    color: antiquewhite;
+    text-decoration: none; /* Quita el subrayado */
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+  }
+
+  .card a:hover {
+    background-color: #3459a1;
+    transform: scale(1.05);
+  }
+
   .card:hover {
     transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
   }
@@ -30,11 +62,11 @@
   }
   
   h3{
-    color: #4977db;
+    color: #cdddff;
     font-family: 'Roboto Slab', serif;
   font-weight: bold;
   margin: 1;
-  font-size: 25px;
+  font-size: 30px;
   }
 
   p{
@@ -43,29 +75,3 @@
   margin: 1;
   }
 
-  @media (max-width: 640px) {
-     .proyectos-container {
-    display: flex;
-    flex-direction: column;     /* una card bajo otra */
-    align-items: center;        /* las centra horizontalmente */
-    gap: 20px;                  /* espacio entre tarjetas */
-  }
-
-  .proyectos-container .card {
-    background-color: #282c34;
-    color: white;
-    border-radius: 8px;
-    /* ANCHO UNIFORME: las hace todas del 90% del viewport */
-    width: 90vw;
-    max-width: 400px;           /* opcional: para que no sean demasiado anchas en pantallas algo más grandes */
-    /* ALTURA UNIFORME: fija una altura mínima o exacta */
-    min-height: 300px;
-    padding: 16px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;  /* reparte título, texto y botón */
-  }
-  }

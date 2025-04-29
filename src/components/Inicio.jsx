@@ -21,10 +21,10 @@ const Inicio = () => {
       <div className="habilidades">
         <div className="carta-hab">
           <div className="titulo-hab">
-            <h1>Habilidades tecnicas</h1>
+            <h1>Habilidades técnicas</h1>
           </div>
           <div className='hab-t'>
-            <h5> • Lenguajes de Programacion:</h5>
+            <h5> • Lenguajes de Programación:</h5>
             Java, JavaScript, C++.
             <h5>• Manejo de base de datos:</h5>
             MySQL, PosgrestSQL, MongoDB.
