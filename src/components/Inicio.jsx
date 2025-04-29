@@ -12,8 +12,10 @@ const Inicio = () => {
         <div className="info">
           <h1 className="nombre">ALEJANDRO PATRICIO QUIROGA</h1>
           <h4>Estudiante avanzado Analista Programador universitario</h4>
-          <p className="descripcion">Busco mejorar cada día en el desarrollo de aplicaciones con diversas tecnologías. Me destaco por mi capacidad de trabajo en equipo, mi adaptabilidad a diferentes paradigmas y mi enfoque lógico para crear soluciones eficientes y funcionales.</p>
-        </div>
+          <p className="descripcion">
+  Me apasiona la programación, con un mayor enfoque en el desarrollo frontend, aunque también cuento con habilidades para crear backends. Busco superarme cada día en el desarrollo de aplicaciones utilizando diversas tecnologías. Me destaco por mi capacidad de trabajo en equipo, mi adaptabilidad a distintos paradigmas y mi enfoque lógico para diseñar soluciones eficientes y funcionales.
+</p>
+ </div>
 
 
       </div>
